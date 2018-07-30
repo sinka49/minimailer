@@ -1,0 +1,26 @@
+{
+  "name": "theminimailer.dev",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Artem Drachkov <artem.prof@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*",
+    "angular": "1.6.4",
+    "angular-resource": "1.6.4"
+  },
+  "scripts":{
+    "postinstall":
+      "cp ./vendor/bower/angular/angular.min.js ./public/js/angular/angular.min.js"
+  }
+}

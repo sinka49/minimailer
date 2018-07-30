@@ -1,0 +1,13 @@
+.DS_Store
+/vendor
+/node_modules
+/public/storage
+Homestead.yaml
+Homestead.json
+.env
+.env.development
+/old
+.idea
+bootstrap/cache
+storage/logs
+_ide_helper.php

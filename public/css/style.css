@@ -1,0 +1,381 @@
+.logo-image {
+    margin: auto;
+}
+
+.video-div {
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.video-div iframe {
+    border-radius: 10px;
+    width: 100%;
+    min-height: 270px;
+}
+
+.btn-yello-top {
+    background-image: linear-gradient(to bottom, rgb(255, 201, 40) 0%, #febe00 100%);
+    border: 1px solid #ccc;
+    color: black;
+    float: left;
+    padding: 15px 30px;
+    text-align: center;
+    width: 90%;
+    margin: 19px 0;
+    text-decoration: none !important;
+}
+
+.blue-bar-div {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.outer-section-1 {
+    background-color: #ddd;
+    border: 1px solid #ccc;
+}
+
+.section-red-div {
+    background-color: rgb(221, 16, 33);
+    outline: medium none;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: white;
+}
+
+.section-blue-div {
+    background-color: rgb(59, 89, 152);
+    outline: medium none;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: white;
+}
+.loader-image-div{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.block {
+    padding: 30px ;
+    box-shadow: 1px 1px 8px rgba(167, 154, 154, 0.27);
+    margin: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.block input, .block textarea{
+    width:100%;
+}
+.block img{
+    width:320px;
+}
+.block:before{
+    content: "Block";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 600;
+    padding: 3px;
+    background: #ffc9c9;
+    width: 80px;
+    text-align: center;
+}
+.block.meta:before{
+    content: "Meta";
+
+}
+.block.banners:before{
+    content: "Banner";
+
+}
+.block:first-child:before{
+    content: "Video";
+}
+.block.meta:first-child:before{
+    content: "Meta";
+}
+.block.banners:first-child:before{
+    content: "Banner";
+}
+.block.meta:last-child:before{
+    content: "Favicon";
+}
+.section-green-div {
+    background-color: rgb(33, 108, 42);
+    outline: medium none;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: white;
+}
+.green{
+    color: green;
+}
+.signle-section-main .inner1 img {
+    width: 100%;
+}
+.log {
+    padding: 10px !important;
+    font-size: 16px !important;
+    height: 50px !important;
+}
+.section-red-div h4, .section-blue-div h4, .section-green-div h4 {
+    font-size: 32px;
+}
+
+.section-red-div p, .section-blue-div p, .section-green-div p {
+    font-size: 21px;
+}
+
+.signle-section h3 {
+    font-size: 32px;
+}
+
+.signle-section p {
+    font-size: 27px;
+}
+
+.outer-section-1 .inner1 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.btn-yello-top h4 {
+    font-size: 37px;
+    color: rgb(0, 40, 63);
+}
+
+.form-login-magrin-top {
+    margin-top: 10%;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #222222;
+    border-color: #080808;
+}
+
+.panel-group .panel {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #EEEEEE;
+}
+
+.panel-default > .panel-heading {
+    padding: 0;
+    border-radius: 0;
+    color: #212121;
+    background-color: #FAFAFA;
+    border-color: #EEEEEE;
+}
+
+.panel-title {
+    font-size: 14px;
+}
+
+.panel-title > a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.more-less {
+    float: right;
+    color: #212121;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #EEEEEE;
+}
+.clear{
+    clear:both;
+}
+.but{
+    padding: 0;
+}
+.dropzone{
+    height:100px;
+    outline: 1px solid #ccc;
+}
+#cancel{
+    position: relative;
+}
+#cancel:hover:before{
+    opacity: 1;
+    transition: 0.3s;
+}
+#cancel:before{
+    content: "If you cancel, the availability will be saved for the paid term";
+    position: absolute;
+    top: -35px;
+    right: 0px;
+    font-size: 12px;
+    color: #b7b6b6;
+    padding: 5px;
+    border: 1px solid rgba(169, 4, 4, 0.19);
+    opacity:0;
+}
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+.dashheader {
+
+    background: #fff;
+    box-shadow: 0px 1px 13px rgba(41, 57, 73, 0.08);
+    z-index: 55;
+    position: fixed;
+    width: 100%;
+}
+.mainArea {
+    width: calc(100% - 350px);
+    padding: 40px;
+    margin-left: 350px;
+    padding-top: 140px;
+}
+#home {
+    padding-top: 50px;
+}
+.navLeftSide {
+    width: 350px;
+    background: #293949;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    padding-top: 100px;
+}
+.list{
+    padding-top: 20px;
+}
+.logo_wrap{
+    width:350px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #091c2f;
+}
+.list a {
+    display: block;
+    padding: 20px;
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: none;
+}
+.topnab {
+    width: 215px;
+    padding-right: 25px;
+    text-align: right;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    font-size: 16px;
+    justify-content: space-between;
+    display: flex;
+}
+.topnab a{
+    text-decoration: none;
+    color: #293949;
+    width: 40%;
+    display: block;
+}
+.containerDash{
+    padding: 20px;
+    width:100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.login_form{
+    width:100%;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 400px;
+    min-height: 400px;
+    background: #fff;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.logo{
+    width: 450px;
+    margin: 0 auto;
+    padding: 50px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.col6 {
+    width: 70%;
+}
+.col4 {
+    width: 30%;
+}
+.p{
+    margin-top: 50px;
+}
+
+.flex {
+    padding: 20px;
+    box-shadow: 0px 5px 5px rgba(74, 73, 73, 0.18);
+    margin-bottom: 30px;
+}
+.payout{
+    width:100px;
+}
+
+.sponsor{
+    font-weight:bold;
+}
+.ss{
+    display: inline;
+    width:auto;
+}
+.col5{
+    width:68%;
+}
+.col3{
+    width:32%;
+}
+.war {
+    padding: 10px;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    margin: 0;
+    background: rgba(255, 0, 0, 0.04);
+}
+.w{
+    text-align: center;
+    background: rgba(255, 0, 0, 0.04);
+    margin: 0;
+    padding: 5px;
+}
+.message{
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    background-color: rgba(29, 193, 22, 0.32);
+    font-weight: bold;
+}
+.logB {
+    padding: 10px;
+    height: 50px;
+    font-size: 18px;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.forg {
+    text-align: center;
+}
